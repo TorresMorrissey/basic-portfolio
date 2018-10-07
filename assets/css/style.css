@@ -1,0 +1,71 @@
+body {
+    max-width: 960px;
+    margin: auto 
+    }
+
+div {
+    background-color: Teal;
+    width: 200px;
+    color: white;
+}
+
+boxed {
+    border: 1px solid grey ;
+  }
+
+.body1 {
+    border-width: thin;
+}
+
+.title {
+    float: left;
+}
+nav {
+   color: grey;
+   margin-left: 700px;
+   border-bottom:10px;
+   padding-top: 1px;
+}
+div {
+    border-style:solid;
+    border-color: grey;
+    border-width: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    border-style:solid;
+    border-color: grey;
+    border-width: 2px;
+    color: teal;
+    line-height: 40px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}   
+
+img {
+        width:200px; 
+        height: 200px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 20px;
+    
+    }
+p {
+    line-height: 40px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 2px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+
+footer {
+    background-color: 
+}
+
+<!------!!Missing text box, background, border bottoms--------->
