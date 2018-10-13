@@ -1,0 +1,128 @@
+body {
+    width: 960px;
+    margin: auto;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    background: url("../images/purty_wood.png");
+    border-color: white;
+   
+}
+
+header {
+    background-color: teal;
+    color: white;
+    height: 110px;
+    width: 140px;
+    padding-left: 20px;
+}
+
+.c {
+    float: left;    
+}
+
+h2 {
+    color: teal;
+    border-bottom: 3px solid grey;
+}
+nav {
+    float: right;
+    margin-top: 25px;
+}
+nav a {
+    text-decoration: none;
+    border-left: 1px solid grey;
+    color: grey;
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: teal;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+}
+
+.work {
+    overflow: auto;
+    
+}
+
+.text-block {
+    float: left;
+}
+
+.text-block {
+    position: relative;
+}
+
+.text-block h4 {
+    position: absolute;
+    bottom: 40px;
+    background-color: teal;
+    color: white;
+    width: 370px;
+    padding: 15px;
+}
+
+
+p {
+    color: #777777;
+
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ccc;
+    
+}
+
+
+footer {
+   border-top: 8px solid #4aaaa5;
+   background-color: #666666;
+  
+}
+@media only screen and (max-width: 960px); {
+
+}
+
+@media only screen and (max-width: 768px); {
+
+}
+
+@media only screen and (max-width: 640px); 
