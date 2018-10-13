@@ -1,71 +1,84 @@
 body {
-    max-width: 960px;
-    margin: auto 
-    }
+    width: 960px;
+    margin: auto;
+    
+}
 
-div {
-    background-color: Teal;
-    width: 200px;
+header {
+    background-color: teal;
     color: white;
-}
-
-boxed {
-    border: 1px solid grey ;
-  }
-
-.body1 {
-    border-width: thin;
-}
-
-.title {
-    float: left;
-}
-nav {
-   color: grey;
-   margin-left: 700px;
-   border-bottom:10px;
-   padding-top: 1px;
-}
-div {
-    border-style:solid;
-    border-color: grey;
-    border-width: 2px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 110px;
+    width: 140px;
+    padding-left: 20px;
 }
 
 h2 {
-    border-style:solid;
-    border-color: grey;
-    border-width: 2px;
     color: teal;
-    line-height: 40px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 3px solid grey;
+}
+nav {
+    float: right;
+    clear : left;
+}
+nav a {
+    text-decoration: none;
+    border-right: 1px solid grey;
+    color: grey;
+}
 
-}   
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: teal;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+p {
+    color: #777777;
+
+}
 
 img {
-        width:200px; 
-        height: 200px;
-        float: left;
-        padding-left: 10px;
-        padding-top: 20px;
-    
-    }
-p {
-    line-height: 40px;
-    border-style:solid;
-    border-color: grey;
-    border-width: 2px;
-    padding-left: 20px;
-    padding-right: 10px;
-
+    float: left;
 }
 
 footer {
-    background-color: 
+   margin-left: 3px;
+   margin-right: 3px;
+   margin-top: 100px;
+   margin bottom: 100px;
+   padding-top: 20px;
+   padding-left: 420px;
+   padding-right: 60px;
+   padding-bottom:20px;
+   background-color: #666666;
+  
 }
-
-<!------!!Missing text box, background, border bottoms--------->
